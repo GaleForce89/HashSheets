@@ -7,12 +7,7 @@
 # -------------------------------------------------------------------------------
 
 # Program should traverse a directory and calculate the digital fingerprints (MD5, SHA1, and SHA256)
-# of all the files in the directory.The program should ask the user for the name of the directory
-# and whether the program needs to recursively go though all the other directories inside the given
-# directory. The program proceeds to calculate the MD5, SHA1, and SHA256 values for each file and
-# saves the result in an Excel document. The Excel document should have the following
-# columns: file name, MD5, SHA1, and SHA256. Each directory should have a separate sheet.
-# Make sure that your program handles special cases.
+# of all the files in the directory. Make sure that your program handles special cases.
 
 import hashlib  # md5/sha1/sha256
 import os  # traverse directories
