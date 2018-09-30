@@ -6,9 +6,6 @@
 # ------------------------                               ------------------------
 # -------------------------------------------------------------------------------
 
-# Program should traverse a directory and calculate the digital fingerprints (MD5, SHA1, and SHA256)
-# of all the files in the directory. Make sure that your program handles special cases.
-
 import hashlib  # md5/sha1/sha256
 import os  # traverse directories
 import time
